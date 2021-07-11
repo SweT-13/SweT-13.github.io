@@ -1,0 +1,21 @@
+//@import ".color";
+
+.backdoor {
+  text-align: left;
+}
+
+.info {
+  text-align: center;
+  align-items: center;
+}
+
+footer {
+  margin-top: 25px;
+  padding: 10px 10px 20px;
+  color: white;
+  background-color: $bg-t;
+
+  a {
+    color: white;
+  }
+}

@@ -1,0 +1,36 @@
+//@import ".color";
+
+nav {
+  background-color: $bg-t;
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+}
+
+.courses {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
