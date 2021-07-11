@@ -29,18 +29,30 @@ main {
   background-color: rgba($yts, 0.3);
   padding: 0 5px;
   border-radius: 10px;
+
+  &:hover {
+    background-color: rgba($yts, 0.5);
+  }
 }
 
 .pi {
   background-color: rgba($pi, 0.3);
   padding: 0 5px;
   border-radius: 10px;
+
+  &:hover {
+    background-color: rgba($pi, 0.5);
+  }
 }
 
 .joint {
   background-color: rgba($joint, 0.3);
   padding: 0 5px;
   border-radius: 10px;
+
+  &:hover {
+    background-color: rgba($joint, 0.5);
+  }
 }
 
 @import ".course";
