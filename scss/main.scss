@@ -17,6 +17,10 @@ p {
   padding: 10px;
 }
 
+main {
+  margin-bottom: 25px;
+}
+
 .department {
   margin-bottom: 25px;
 }
@@ -39,56 +43,7 @@ p {
   border-radius: 10px;
 }
 
-main {
-  margin-bottom: 25px;
-}
-
-.semester {
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-.course1, .course2, .course3, .course4 {
-  margin-bottom: 10px;
-}
-
-.course1 {
-  color: #ffffff;
-  background: rgb(36, 35, 35);
-  background: no-repeat url("../image/yniver.png") center center/100%;
-
-  p {
-    color: black;
-  }
-}
-
-.course3 {
-  color: #ffffff;
-  background: rgb(36, 35, 35);
-  background: no-repeat url("../image/futureclass.png") center center/100%;
-
-  p {
-    color: black;
-  }
-}
-
-.--cover {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px 0 15px 0;
-}
-
-.course {
-  justify-content: space-evenly;
-  align-items: center;
-  margin-bottom: 10px;
-
-  .joint, .pi, .yts {
-    padding: 5px;
-  }
-}
-
-footer {
-  margin-top: 25px;
-  padding: 5px 10px 20px;
-}
+@import ".course";
+//Импорт стилий для оформления курсов
+@import ".footer";
+//Импорт стилей футора
